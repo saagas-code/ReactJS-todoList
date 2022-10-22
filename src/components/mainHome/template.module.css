@@ -1,0 +1,49 @@
+* {
+    outline: 0;
+}
+main {
+    width: calc(100vw - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+main .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskList {
+    display: flex;
+    width: 100%;
+    /* max-height: 346px; */
+    height: 400px;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin-top: 0;
+    margin-top: 20px;
+
+}
+
+.selectContainer {
+    width: 60%;
+    display: flex;
+    margin-top: 10px;
+}
+.selectContainer select {
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    color: var(--text-dark);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+

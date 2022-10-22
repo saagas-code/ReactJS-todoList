@@ -1,0 +1,38 @@
+* {
+    color: var(--text-dark);
+}
+
+nav {
+    height: 100px;
+    width: calc(100vw - 100px);
+    background-color: var(--background-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>div {
+    padding: 0px 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: var(--color-primary);
+    
+}
+
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    background-color: var(--color-primary);
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    
+
+}
+.btn:hover {
+    transform: scale(1.05);
+}

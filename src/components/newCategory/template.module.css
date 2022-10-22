@@ -1,0 +1,84 @@
+* {
+    outline: 0;
+}
+section {
+    width: calc(100vw - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .container {
+    max-width: 750px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.inputArea {
+    display: block;
+    margin: 10px;
+    margin: 10px 0 20px 0;
+}
+.inputArea>label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.inputArea>input, .inputArea>select  {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5)
+}
+.inputArea>textarea {
+    height: 120px;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    resize: none;
+}
+
+
+.main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    background-color: var(--color-primary);
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    margin-right: 20px;
+    
+
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.radio  { 
+    background-color: gray !important;
+    height: 15px !important;
+    width: auto !important;
+    margin-right: 10px;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .taskList {
+        
+    }
+}

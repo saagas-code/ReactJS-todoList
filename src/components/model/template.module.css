@@ -1,0 +1,68 @@
+.taskList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 1px solid var(--background-light);
+    transition: all .3s ease-in-out;
+
+    
+}
+.task input {
+    margin-right: 10px;
+}
+.task:hover {
+    background-color: var(--background-light);
+    transform: scale(1.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.title {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    white-space: nowrap;
+}
+.priority, .actions {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+
+}
+.priority {
+    display: flex;
+    justify-content: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+.action {
+    margin-left: 10px;
+    margin-right: 15px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.actions>a:hover {
+    transform: scale(1.2);
+}
+
+.sphere {
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
