@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto todoList em ReactJS
+![](https://github.com/biixin/todolist-GIFF.git)
 
 ## Available Scripts
 
