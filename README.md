@@ -20,6 +20,6 @@ Projeto em ReactJS + Typescript
 $ npm install
 $ npm start
 ```
-Para rodar o Projeto é necessário estar rodando o [Back-END](x) do Projeto.
+Para rodar o Projeto é necessário estar rodando o [Back-END](https://github.com/saagas-code/node-api-todolist) do Projeto.
 
 ## License
